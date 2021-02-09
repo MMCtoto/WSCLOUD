@@ -1,0 +1,10 @@
+package com.example.demo.persistencia;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.entidad.VideoJuego;
+
+
+public interface DaoVideojuegos extends JpaRepository<VideoJuego,Integer> {
+
+}
